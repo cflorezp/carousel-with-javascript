@@ -14,7 +14,7 @@ const reviews = [
     text: 'Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.',
   },
   {
-    id: 1,
+    id: 3,
     name: 'WINDOWS',
     description: 'Users',
     img: '/images/windows.png',
@@ -75,3 +75,4 @@ randomBtn.addEventListener('click', function () {
   currentItem = Math.floor(Math.random() * reviews.length);
   showItem();
 });
+
