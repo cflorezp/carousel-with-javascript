@@ -1,24 +1,24 @@
 const reviews = [
   {
     id: 1,
-    name: 'apple',
+    name: 'APPLE',
     description: 'Ux design',
     img: '/images/apple.png',
-    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea  delectus explicabo earum quam quasi repellendus quo ratione commodi  pariatur! Aliquam, nulla atque. Alias laborum ducimus harum minima quo nisi maxime',
+    text: "Apple Inc. is an American multinational technology company that specializes in consumer electronics, computer software and online services. Apple is the world's largest technology company by revenue (totaling $274.5 billion in 2020) and, since January 2021, the world's most valuable company. As of 2021.",
   },
   {
     id: 2,
-    name: 'linux',
-    description: 'Ux design',
-    img: '',
-    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea  delectus explicabo earum quam quasi repellendus quo ratione commodi  pariatur! Aliquam, nulla atque. Alias laborum ducimus harum minima quo nisi maxime',
+    name: 'LINUX',
+    description: 'Server and Users',
+    img: '/images/linux.jpg',
+    text: 'Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.',
   },
   {
     id: 1,
-    name: 'windows',
-    description: 'Ux design',
-    img: '',
-    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea  delectus explicabo earum quam quasi repellendus quo ratione commodi  pariatur! Aliquam, nulla atque. Alias laborum ducimus harum minima quo nisi maxime',
+    name: 'WINDOWS',
+    description: 'Users',
+    img: '/images/windows.png',
+    text: 'Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry.',
   },
 ];
 
@@ -71,7 +71,7 @@ prevBtn.addEventListener('click', function () {
 });
 
 //show randon item
-randomBtn.addEventListener('click', function(){
-    currentItem = Math.floor(Math.random() * reviews.length);
-    showItem();
-})
+randomBtn.addEventListener('click', function () {
+  currentItem = Math.floor(Math.random() * reviews.length);
+  showItem();
+});
